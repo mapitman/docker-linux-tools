@@ -11,4 +11,4 @@ push:
 	docker push $(NAME):latest
 
 run:
-	docker run --rm -it $(NAME)
+	docker run --rm -it $(NAME):latest
