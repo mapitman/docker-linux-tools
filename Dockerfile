@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.8
 
 ARG VCS_REF
 ARG BUILD_DATE
@@ -8,3 +8,4 @@ LABEL   org.label-schema.build-date=$BUILD_DATE \
         org.label-schema.vcs-ref=$VCS_REF\
         org.label-schema.vcs-url="https://github.com/mapitman/docker-busybox"
 LABEL maintainer="Mark Pitman <mark.pitman@gmail.com>"
+
