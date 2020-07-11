@@ -1,5 +1,7 @@
 # docker-linux-tools
 
+## _NOTE: I'm consolidating my dockerfile repos into one [dockerfiles](https://github.com/mapitman/dockerfiles) repository_
+
 I use this on my Windows system to run commands like telnet, netcat, etc.
 
 ## Usage
