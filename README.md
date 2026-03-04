@@ -1,8 +1,6 @@
 # docker-linux-tools
 
-## _NOTE: I'm consolidating my dockerfile repos into one [dockerfiles](https://github.com/mapitman/dockerfiles) repository_
-
-I use this on my Windows system to run commands like telnet, netcat, etc.
+I used to use this on my Windows system to run commands like telnet, netcat, etc.
 
 ## Usage
 
@@ -10,7 +8,7 @@ I use this on my Windows system to run commands like telnet, netcat, etc.
 docker run --rm -it mapitman/busybox { telnet, nc, etc. }
 ```
 
-I set up some functions in my `.bashrc` to run various tools in the Docker container:
+I set up some functions in my `.bashrc` in MSYS2 to run various tools in the Docker container:
 
 ```sh
 dig () {
